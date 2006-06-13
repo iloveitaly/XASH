@@ -1,0 +1,19 @@
+{
+    IBClasses = (
+        {
+            CLASS = ASHelpArrayController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSArrayController; 
+        }, 
+        {CLASS = ASHelpOutlineDataSource; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {setHelpPage = id; }; 
+            CLASS = XASHController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {oHelpTree = NSOutlineView; oWebView = WebView; }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}

@@ -1,0 +1,2 @@
+-Live search like itunes
+-Book filtering (like in Flash IDE)
