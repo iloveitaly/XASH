@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 42;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		27510B680912ADAF00CFA3D4 /* Package */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 27510B860912ADD600CFA3D4 /* Build configuration list for PBXAggregateTarget "Package" */;
+			buildPhases = (
+				27510B670912ADAF00CFA3D4 /* Package */,
+				27510CBE09156BB500CFA3D4 /* Package Source */,
+			);
+			buildSettings = {
+				OPTIMIZATION_CFLAGS = "";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Package;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			dependencies = (
+				27510B6A0912ADBF00CFA3D4 /* PBXTargetDependency */,
+			);
+			name = Package;
+			productName = Package;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		27055A93097FFA21005DB08A /* icon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 27055A92097FFA21005DB08A /* icon.icns */; };
+		278EA66C09420470004897BD /* ASBookFilterController.m in Sources */ = {isa = PBXBuildFile; fileRef = 278EA66B09420470004897BD /* ASBookFilterController.m */; };
+		27DDCA8A08E6E9FC003A36C2 /* XASHController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DDCA8908E6E9FC003A36C2 /* XASHController.m */; };
+		27DDCB8E08E85288003A36C2 /* ASHelpXMLParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DDCB8D08E85288003A36C2 /* ASHelpXMLParser.m */; };
+		27DDCB9308E853BF003A36C2 /* ASHelpNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DDCB9208E853BF003A36C2 /* ASHelpNode.m */; };
+		27DDCBAD08E87B4A003A36C2 /* ASHelpOutlineDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 27DDCBAC08E87B4A003A36C2 /* ASHelpOutlineDataSource.m */; };
+		27DDCDEA08E89FD8003A36C2 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 27DDCDE908E89FD8003A36C2 /* WebKit.framework */; };
+		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
+		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		4A9504CCFFE6A4B311CA0CBA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PREBINDING = NO;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		4A9504CDFFE6A4B311CA0CBA /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				PREBINDING = NO;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		27510B690912ADBF00CFA3D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 29B97313FDCFA39411CA2CEA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D1107260486CEB800E47090;
+			remoteInfo = XASH;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		27055A92097FFA21005DB08A /* icon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = icon.icns; path = Resources/icon.icns; sourceTree = "<group>"; };
+		272505650945024C000181A9 /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = CHANGELOG.txt; path = Resources/CHANGELOG.txt; sourceTree = "<group>"; };
+		278EA66A09420470004897BD /* ASBookFilterController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASBookFilterController.h; sourceTree = "<group>"; };
+		278EA66B09420470004897BD /* ASBookFilterController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASBookFilterController.m; sourceTree = "<group>"; };
+		27DDCA8808E6E9FC003A36C2 /* XASHController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XASHController.h; sourceTree = "<group>"; };
+		27DDCA8908E6E9FC003A36C2 /* XASHController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XASHController.m; sourceTree = "<group>"; };
+		27DDCB8C08E85288003A36C2 /* ASHelpXMLParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHelpXMLParser.h; sourceTree = "<group>"; };
+		27DDCB8D08E85288003A36C2 /* ASHelpXMLParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHelpXMLParser.m; sourceTree = "<group>"; };
+		27DDCB9108E853BF003A36C2 /* ASHelpNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHelpNode.h; sourceTree = "<group>"; };
+		27DDCB9208E853BF003A36C2 /* ASHelpNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHelpNode.m; sourceTree = "<group>"; };
+		27DDCBAB08E87B4A003A36C2 /* ASHelpOutlineDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASHelpOutlineDataSource.h; sourceTree = "<group>"; };
+		27DDCBAC08E87B4A003A36C2 /* ASHelpOutlineDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASHelpOutlineDataSource.m; sourceTree = "<group>"; };
+		27DDCDE908E89FD8003A36C2 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = /System/Library/Frameworks/WebKit.framework; sourceTree = "<absolute>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* XASH_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XASH_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8D1107320486CEB800E47090 /* XASH.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = XASH.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D11072E0486CEB800E47090 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
+				27DDCDEA08E89FD8003A36C2 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				27DDCA8808E6E9FC003A36C2 /* XASHController.h */,
+				27DDCA8908E6E9FC003A36C2 /* XASHController.m */,
+				27DDCBAB08E87B4A003A36C2 /* ASHelpOutlineDataSource.h */,
+				27DDCBAC08E87B4A003A36C2 /* ASHelpOutlineDataSource.m */,
+				278EA66A09420470004897BD /* ASBookFilterController.h */,
+				278EA66B09420470004897BD /* ASBookFilterController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D1107320486CEB800E47090 /* XASH.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2749BEC708E9CCE100720241 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				27DDCB9108E853BF003A36C2 /* ASHelpNode.h */,
+				27DDCB9208E853BF003A36C2 /* ASHelpNode.m */,
+				27DDCB8C08E85288003A36C2 /* ASHelpXMLParser.h */,
+				27DDCB8D08E85288003A36C2 /* ASHelpXMLParser.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* XASH */ = {
+			isa = PBXGroup;
+			children = (
+				2749BEC708E9CCE100720241 /* Model */,
+				080E96DDFE201D6D7F000001 /* Controllers */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = XASH;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* XASH_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				27055A92097FFA21005DB08A /* icon.icns */,
+				272505650945024C000181A9 /* CHANGELOG.txt */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
+				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				27DDCDE908E89FD8003A36C2 /* WebKit.framework */,
+				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D1107260486CEB800E47090 /* XASH */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27DDC7FF08E6DD94003A36C2 /* Build configuration list for PBXNativeTarget "XASH" */;
+			buildPhases = (
+				8D1107290486CEB800E47090 /* Resources */,
+				8D11072C0486CEB800E47090 /* Sources */,
+				8D11072E0486CEB800E47090 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XASH_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = XASH;
+				WRAPPER_EXTENSION = app;
+			};
+			dependencies = (
+			);
+			name = XASH;
+			productInstallPath = "$(HOME)/Applications";
+			productName = XASH;
+			productReference = 8D1107320486CEB800E47090 /* XASH.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 27DDC80308E6DD94003A36C2 /* Build configuration list for PBXProject "XASH" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				4A9504CCFFE6A4B311CA0CBA /* Debug */,
+				4A9504CDFFE6A4B311CA0CBA /* Release */,
+			);
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* XASH */;
+			projectDirPath = "";
+			targets = (
+				8D1107260486CEB800E47090 /* XASH */,
+				27510B680912ADAF00CFA3D4 /* Package */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D1107290486CEB800E47090 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
+				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
+				27055A93097FFA21005DB08A /* icon.icns in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27510B670912ADAF00CFA3D4 /* Package */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = Package;
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dir=~/Desktop/XASH #dir is the directory for all the zipped files to go\ntempDir=$dir/temp\nresrc=./resources/\n\nmkdir $dir\nmkdir $tempDir\n\n#cp all the build files into a temp dir to get rdy for zipping\ncp -R \"$BUILT_PRODUCTS_DIR/XASH.app\" $tempDir\ncp $resrc/TODO.txt $tempDir\n#cp $resrc/CHANGELOG.txt $tempDir\n#cp $resrc/README.rtf $tempDir\ncp $resrc/license.txt $tempDir\n\n#finder zip equiv: http://www.macosxhints.com/article.php?story=20031223150348992\n#so zip up the binary with its other files\nditto -c -k -rsrc \\\n$tempDir \\\n$dir/xash.zip\n\nrm -R $tempDir\n\nexit 0";
+		};
+		27510CBE09156BB500CFA3D4 /* Package Source */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 12;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Package Source";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "dir=~/Desktop/XASH #dir is the directory for all the zipped files to go\n\nrm -R \"$BUILD_DIR\" #remove all the build stuff\n\n#finder zip equiv: http://www.macosxhints.com/article.php?story=20031223150348992\n#so zip up the binary with its other files\nditto -c -k -rsrc \\\n./ \\\n$dir/xash_source.zip\n\nexit 0";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D11072C0486CEB800E47090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D11072D0486CEB800E47090 /* main.m in Sources */,
+				27DDCA8A08E6E9FC003A36C2 /* XASHController.m in Sources */,
+				27DDCB8E08E85288003A36C2 /* ASHelpXMLParser.m in Sources */,
+				27DDCB9308E853BF003A36C2 /* ASHelpNode.m in Sources */,
+				27DDCBAD08E87B4A003A36C2 /* ASHelpOutlineDataSource.m in Sources */,
+				278EA66C09420470004897BD /* ASBookFilterController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		27510B6A0912ADBF00CFA3D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D1107260486CEB800E47090 /* XASH */;
+			targetProxy = 27510B690912ADBF00CFA3D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C165DFE840E0CC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				29B97319FDCFA39411CA2CEA /* English */,
+			);
+			name = MainMenu.nib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		27510B870912ADD600CFA3D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Package;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		27510B880912ADD600CFA3D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Package;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		27510B890912ADD600CFA3D4 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				OPTIMIZATION_CFLAGS = "-O0";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Package;
+				SECTORDER_FLAGS = "";
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Default;
+		};
+		27DDC80008E6DD94003A36C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					ppc,
+					i386,
+				);
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XASH_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = XASH;
+				SDKROOT = /Developer/SDKs/MacOSX10.4u.sdk;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = YES;
+			};
+			name = Debug;
+		};
+		27DDC80108E6DD94003A36C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XASH_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PREBINDING = NO;
+				PRODUCT_NAME = XASH;
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		27DDC80208E6DD94003A36C2 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = XASH_Prefix.pch;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(HOME)/Applications";
+				PRODUCT_NAME = XASH;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Default;
+		};
+		27DDC80408E6DD94003A36C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		27DDC80508E6DD94003A36C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		27DDC80608E6DD94003A36C2 /* Default */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Default;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27510B860912ADD600CFA3D4 /* Build configuration list for PBXAggregateTarget "Package" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27510B870912ADD600CFA3D4 /* Debug */,
+				27510B880912ADD600CFA3D4 /* Release */,
+				27510B890912ADD600CFA3D4 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		27DDC7FF08E6DD94003A36C2 /* Build configuration list for PBXNativeTarget "XASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DDC80008E6DD94003A36C2 /* Debug */,
+				27DDC80108E6DD94003A36C2 /* Release */,
+				27DDC80208E6DD94003A36C2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+		27DDC80308E6DD94003A36C2 /* Build configuration list for PBXProject "XASH" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27DDC80408E6DD94003A36C2 /* Debug */,
+				27DDC80508E6DD94003A36C2 /* Release */,
+				27DDC80608E6DD94003A36C2 /* Default */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Default;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

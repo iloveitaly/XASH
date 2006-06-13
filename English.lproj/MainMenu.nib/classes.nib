@@ -1,0 +1,26 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {setFilteredBook = id; }; 
+            CLASS = ASBookFilterController; 
+            LANGUAGE = ObjC; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {
+            CLASS = ASHelpOutlineDataSource; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {oHelpTree = NSOutlineView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {setHelpPage = id; }; 
+            CLASS = XASHController; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {oHelpTree = NSOutlineView; oHelpWindow = NSWindow; oWebView = WebView; }; 
+            SUPERCLASS = NSObject; 
+        }, 
+        {CLASS = appControllerWrapper; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}
