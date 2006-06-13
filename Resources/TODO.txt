@@ -1,0 +1,2 @@
+-Bookmarks
+-Full text search (like-xcode);
